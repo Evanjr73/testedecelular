@@ -32,11 +32,11 @@ class MainActivity : AppCompatActivity() {
         btnCalcular.setOnClickListener {
             var textodigitado = preco.text.toString().toFloat()
 
-            if(textodigitado.toInt() == 123){
+            if(textodigitado.toInt() == 1625){
                 //Log.d( "texto digitado", textodigitado.toString())
                 resposta.text= "sai dai sua louca "
             }
-            if(textodigitado.toInt() != 123){
+            if(textodigitado.toInt() != 1625){
                 //Log.d( "texto digitado", textodigitado.toString())
                 resposta.text= "errou a senha "
             }
