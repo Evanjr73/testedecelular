@@ -1,5 +1,6 @@
 package com.example.testedecelular
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -35,6 +36,8 @@ class MainActivity : AppCompatActivity() {
             if(textodigitado.toInt() == 1625){
                 //Log.d( "texto digitado", textodigitado.toString())
                 resposta.text= "sai dai sua louca "
+                startActivity(Intent(this,segunda::class.java))
+
             }
             if(textodigitado.toInt() != 1625){
                 //Log.d( "texto digitado", textodigitado.toString())
