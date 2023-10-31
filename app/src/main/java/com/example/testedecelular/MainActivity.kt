@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
 
             if(textodigitado.toInt() == 1625){
                 //Log.d( "texto digitado", textodigitado.toString())
-                resposta.text= "sai dai sua louca "
+
                 startActivity(Intent(this,segunda::class.java))
 
             }
